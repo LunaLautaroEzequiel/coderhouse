@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+$colorprimario: #7c7c7c; 
+$colorsecundario: #3d47f9;
+$colorespecialidades: white;
+$fuentetitulos: Georgia;
+$fuentetextos: sans-serif;
+//extend
+%flexrowcenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+%borderclasic{
+    background-color: white;
+    border: 1px solid black;
+}
