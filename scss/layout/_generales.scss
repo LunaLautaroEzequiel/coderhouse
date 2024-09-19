@@ -1,9 +1,7 @@
-
-body{
-    background-color: $colorprimario;
-}
-.navbar{
-    background-color: $colorsecundario;
+body {
+    background-image: url(../img/consultorio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     ul{
         list-style-type: none;
         @extend%flexrowcenter;
@@ -54,10 +52,6 @@ h1{
     max-width:1300px;
     margin: 0 auto;
     padding: 1rem;
-    background-color: $colorsecundario;
-    border-radius: 3%;
-    
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     h2 {
         font-size: 55px;
         text-align: center;
