@@ -3,18 +3,32 @@
 <head>
     <title>Clinica Amit</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./especialidades.html">Especialidades</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="./direccion.html">Como llegar</a></li>
-        </ul>
-        </nav>
-        </header>
+    <nav class="navbar navbar-expand-lg bg-body-$colorprimario">
+        <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./asociarse.html">ASOCIARSE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./especialidades.html">ESPECIALIDADES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <h1>Donde estamos</h1>
     <p>La Clínica está ubicada en Av. Libertador 7311, Trujui, Moreno. </p>
     <a href="https://www.google.com.ar/maps/place/Amit+Cl%C3%ADnica/@-34.5872369,-58.7526137,17z/data=!3m1!4b1!4m6!3m5!1s0x95bc961746349ffd:0x27dc26b7eff2c64e!8m2!3d-34.5872413!4d-58.7500388!16s%2Fg%2F11ph7npdhc?entry=ttu" target="blank">UBICACION POR GPS</a><img src="../img/logos-googlemaps.png" alt=""> <br>
@@ -24,5 +38,6 @@
     <footer>
         <p> © 2024 Amit asociación mutual. Todos los derechos reservados. </p>
     </footer>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

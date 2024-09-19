@@ -2,19 +2,33 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <title>Clinica Amit</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./especialidades.html">Especialidades</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="./direccion.html">Como llegar</a></li>
-        </ul>
-        </nav>
-        </header>
+    <nav class="navbar navbar-expand-lg bg-body-$colorprimario">
+        <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./asociarse.html">ASOCIARSE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./especialidades.html">ESPECIALIDADES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./direccion.html">DIRECCION</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <h1>Contacto</h1>
     <h2>Puede contactarse con nosotros mediante la red social que prefiera, con tan solamente un click!</h2>
     <ul class="redes">
@@ -28,5 +42,6 @@
         <footer>
         <p> © 2024 Amit asociación mutual. Todos los derechos reservados.</p>
     </footer>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
