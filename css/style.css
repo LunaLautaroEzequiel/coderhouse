@@ -19,15 +19,20 @@ h1 {
 }
 
 .introduccion {
-  font-size: 25px;
+  font-family: sans-serif;
   width: 70%;
-  display: contents;
-  font-weight: 900;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
 }
 
 .section {
   background: white;
-  width: 100%;
+  font-family: sans-serif;
+  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,7 +53,8 @@ h1 {
   max-width: 45%;
   height: 300px;
   display: block;
-  margin: 0 auto;
+  margin: 5px auto;
+  border-radius: 5px;
 }
 
 .back {
@@ -123,12 +129,35 @@ section input {
   text-decoration: none;
 }
 
-img {
+.card {
+  width: 25rem;
+  height: 25rem;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 50%;
+}
+
+.card-text {
+  font-family: sans-serif;
+}
+
+.img-logo {
   max-width: 30px;
   height: auto;
   border-radius: 4px;
   text-decoration: none;
-  margin: 5px;
+  margin: 15px;
+}
+
+div a {
+  background-color: white;
+  border-radius: 5px;
 }
 
 .redes {

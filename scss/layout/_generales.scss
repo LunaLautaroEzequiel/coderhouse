@@ -12,18 +12,23 @@ h1{
     margin: 10px;
 }
 .introduccion{
-    font-size: 25px;
+    font-family: $fuentetextos;
     width: 70%;
-    display: contents;
-    font-weight: 900;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
 }
 .section {
-        background: white;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    background: white;
+    font-family: $fuentetextos;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     h2 {
         font-size: 55px;
         text-align: center;
@@ -39,7 +44,8 @@ h1{
     max-width: 45%;
     height: 300px;
     display: block;
-    margin: 0 auto; 
+    margin: 5px auto;
+    border-radius: 5px;
 }  
 .back {
     font-size: 20px;

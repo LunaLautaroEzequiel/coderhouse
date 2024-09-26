@@ -1,7 +1,26 @@
-img {
+.card {
+    width: 25rem;
+    height: 25rem;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-img-top {
+    width: 50%;
+}
+.card-text{
+    font-family: $fuentetextos;
+}
+.img-logo{
     max-width: 30px;
     height: auto;
     border-radius: 4px;
     text-decoration: none;
-    margin: 5px;
+    margin: 15px;
+}
+div a{
+    background-color: white;
+    border-radius: 5px;
 }
