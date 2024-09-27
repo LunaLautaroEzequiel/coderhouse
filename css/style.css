@@ -131,9 +131,10 @@ section {
   margin: auto;
 }
 section input {
-  font-size: 20px;
-  border: solid 1px;
+  padding: 10px;
+  border: 1px solid black;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .back a {
@@ -175,17 +176,15 @@ div a {
   border-radius: 5px;
 }
 
-.redes {
+.section-contacto {
   display: flex;
-  flex-direction: column;
-  margin: 50px;
+  flex-wrap: wrap;
 }
-.redes img {
-  max-width: 30px;
-  height: auto;
-  border-radius: 4px;
-  text-decoration: none;
-  margin: 5px;
+
+.card-img-logo {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 ul.todas-especialidades {
