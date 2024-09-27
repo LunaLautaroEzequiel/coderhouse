@@ -29,8 +29,15 @@ h1 {
   font-weight: 700;
 }
 
+.lineargradient {
+  background-image: linear-gradient(to bottom, white, gray);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
 .section {
-  background: white;
   font-family: sans-serif;
   width: auto;
   display: flex;
@@ -39,14 +46,20 @@ h1 {
   align-items: center;
 }
 .section h2 {
+  background: white;
+  font-family: sans-serif;
   font-size: 55px;
   text-align: center;
   padding-left: 20px;
   margin: 10px;
+  border-radius: 3px;
 }
-.section h2 p {
-  font-size: 35px;
+
+.parrafo-section {
+  background: white;
+  font-size: 15px;
   line-height: 1.6;
+  border-radius: 3px;
 }
 
 .image-container img {
@@ -65,12 +78,12 @@ h1 {
 footer {
   background-color: #7c7c7c;
   font-size: 20px;
-  min-height: 100px;
+  min-height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 50px;
+  height: 30px;
   padding-top: 20px;
 }
 
@@ -156,6 +169,8 @@ section input {
 }
 
 div a {
+  color: black;
+  font-size: x-large;
   background-color: white;
   border-radius: 5px;
 }
@@ -173,10 +188,10 @@ div a {
   margin: 5px;
 }
 
-.especialidades {
-  width: 50%;
-  height: 50%;
-  text-align: center;
+ul.todas-especialidades {
+  list-style-type: none;
+  font-family: sans-serif;
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
