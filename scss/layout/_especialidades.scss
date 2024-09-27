@@ -1,6 +1,32 @@
-
-ul.todas-especialidades {
-    list-style-type: none;
+.seccion-especialidades {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.lista {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    ul.todas-especialidades {
+        list-style-type: none;
+        font-family: $fuentetextos;
+        background-color: white;
+    }
+}
+.imagenes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+}
+.imagenes img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.otras-especialidades{
+    background-image: linear-gradient(to bottom, white, gray);
+    text-align: center;
     font-family: $fuentetextos;
-    background-color: white;
 }
